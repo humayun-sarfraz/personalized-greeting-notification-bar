@@ -1,70 +1,72 @@
 === Personalized Greeting & Notification Bar ===
-Contributors: humayun-sarfraz  
-Tags: greeting bar, notification bar, woocommerce, latest post, admin options, customizable, notification, user experience  
-Requires at least: 5.0  
-Tested up to: 6.5  
-Stable tag: 2.0.0  
-Requires PHP: 7.2  
-License: GPLv2 or later  
+Contributors: humayun-sarfraz
+Tags: greeting bar, notification bar, woocommerce, latest post, admin options, customizable, notification, user experience
+Requires at least: 5.0
+Tested up to: 6.5
+Stable tag: 2.0.0
+Requires PHP: 7.2
+License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A fully customizable, admin-friendly greeting and notification bar for WordPress and WooCommerce. Boost engagement with dynamic greetings and actionable notifications, with easy backend options.
+A customizable, responsive, and admin-friendly greeting and notification bar for WordPress and WooCommerce.
 
 Plugin Author: Humayun Sarfraz  
 Plugin URL: https://github.com/humayun-sarfraz/personalized-greeting-notification-bar
 
 == Description ==
 
-This plugin displays a dynamic greeting & notification bar at the top (or bottom) of your WordPress site. Greet users by name, show time-based messages, and notify them about their WooCommerce cart, latest post, or any custom message. Everything is easily configurable from the WordPress admin panel—no coding required.
+Personalized Greeting & Notification Bar displays a mobile-friendly, time-based greeting bar at the top or bottom of your WordPress site. Greet users by name, show a custom message, highlight WooCommerce cart contents, or promote your latest post—completely configurable from the WordPress admin panel.
 
 **Features:**
-- Dynamic greetings (morning, afternoon, evening) with user name
-- WooCommerce cart reminder (if WooCommerce is active)
+- Dynamic greeting (morning/afternoon/evening) using user's display name
+- WooCommerce cart notification (if WooCommerce active)
 - Show latest blog post as notification
 - Custom notification message option
 - Enable/disable bar globally
-- Customize greetings, labels, and notification text
+- Customize greeting, label, notification text, and format
 - Bar position: top or bottom
-- Color pickers for background, text, and button
+- Color pickers for background, text, and button (live preview)
+- Mobile-first responsive design
 - Set cookie duration for dismiss action
 - Dismissible bar (remembers user’s choice)
-- Shortcode and widget support
-- 100% translation-ready
-- Lightweight, clean, and secure
+- Shortcode `[pgnb_bar]` and widget support
+- Translation-ready and accessibility friendly
+- Lightweight, clean, secure codebase
 
 == Installation ==
 
-1. Upload the plugin folder to `/wp-content/plugins/` directory.
-2. Activate the plugin through the ‘Plugins’ menu in WordPress.
-3. Visit **Settings > Greeting Bar** to configure options.
-4. Optionally, use the `[pgnb_bar]` shortcode or the “Greeting & Notification Bar” widget anywhere.
+1. Upload the plugin folder to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Visit **Settings > Greeting Bar** to configure all options.
+4. (Optional) Add `[pgnb_bar]` shortcode or the “Greeting & Notification Bar” widget anywhere you like.
 
 == Frequently Asked Questions ==
 
-= Will it work with WooCommerce? =
-Yes! If WooCommerce is installed and active, you can use the “cart” notification type.
+= Does it support WooCommerce? =
+Yes! When WooCommerce is active, you can enable the “cart” notification type for logged-in users.
 
-= Can I change the greeting or notification text? =
-Absolutely! All texts and formats are customizable from the plugin settings page.
+= Can I change the greetings or notification text? =
+Absolutely—all texts and formats are customizable in the plugin settings.
 
-= Is it translation ready? =
-Yes. All plugin strings use the `pgnb` text domain and are ready for translation.
+= Is it translation-ready? =
+Yes. All plugin strings use the `pgnb` text domain.
 
-= Can I disable the bar or change its position? =
-Yes, you can disable the bar globally and set it to appear at the top or bottom of your site.
+= How do I move the bar to the bottom or change colors? =
+Use the options in **Settings > Greeting Bar** for position, colors, and more.
 
 = How do I show the bar via shortcode or widget? =
-Use `[pgnb_bar]` in your content, or add the widget in Appearance > Widgets.
+Use `[pgnb_bar]` in your post, page, or template. You can also add the widget in Appearance > Widgets.
 
 == Screenshots ==
 
-1. Example of the greeting & notification bar at the top of a website
-2. Admin settings panel for full customization
+1. Example greeting & notification bar at the top of a website
+2. Admin settings panel for customization
+3. Mobile view of the bar
 
 == Changelog ==
 
 = 2.0.0 =
-* Major update: Added admin settings panel for full customization, more notification types, and better styling.
+* Major update: Full admin panel, more notification types, fully responsive design, color pickers, and modern codebase.
 
 = 1.0.0 =
 * Initial release: Basic greeting bar with WooCommerce cart notice.
@@ -72,7 +74,7 @@ Use `[pgnb_bar]` in your content, or add the widget in Appearance > Widgets.
 == Upgrade Notice ==
 
 = 2.0.0 =
-Upgrading to 2.0.0 adds a full admin panel and more flexible notification options.
+This update adds a full admin panel, flexible notification types, color pickers, and full mobile compatibility.
 
 == License ==
 
