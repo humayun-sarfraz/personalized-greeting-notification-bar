@@ -1,5 +1,5 @@
 === Personalized Greeting & Notification Bar ===
-Contributors: scriptsbundle  
+Contributors: humayun-sarfraz  
 Tags: greeting bar, notification bar, woocommerce, latest post, admin options, customizable, notification, user experience  
 Requires at least: 5.0  
 Tested up to: 6.5  
@@ -9,6 +9,9 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 A fully customizable, admin-friendly greeting and notification bar for WordPress and WooCommerce. Boost engagement with dynamic greetings and actionable notifications, with easy backend options.
+
+Plugin Author: Humayun Sarfraz  
+Plugin URL: https://github.com/humayun-sarfraz/personalized-greeting-notification-bar
 
 == Description ==
 
